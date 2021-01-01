@@ -1,0 +1,63 @@
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    // font-size: 16px;
+    cursor: pointer;
+}
+
+.app {
+    &-header-controls {
+        border: solid 3px;
+        input {
+            margin-right: 5px;
+        }
+        span {
+            margin-right: 20px;
+        }
+        button {
+            float: right;   
+        }
+    }
+
+    &-container {
+        display: flex;
+    }
+
+    &-editor {
+        padding: 5px;
+        border: black solid 3px;
+        border-top: 0px;
+
+        textarea {
+            font-family: 'Courier New', monospace;
+            margin-top: 10px;
+            width: 450px;
+            height: 700px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        button {
+            margin-right: 5px;
+        }
+    }
+
+    &-live-stats {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
