@@ -1,4 +1,4 @@
-import "../styles/Stats.scss"
+import "../styles/Stats.css"
 
 function Stats(props) {
     const {options, labels, stats} = props;

@@ -56,9 +56,9 @@ const defaultStyle = `{
     "textStroke": "",
     "notesStroke": "0.2",
 
-    "headerFont": "emb_frijole",
-    "textFont": "emb_frijole",
-    "notesFont": "emb_indie_flower",
+    "headerFont": "Frijole",
+    "textFont": "Frijole",
+    "notesFont": "Indie Flower",
 
     "textScale1": 1,
     "textScale2": 0.7,
@@ -138,9 +138,9 @@ const alternativeStyle = `{
     "textStroke": "",
     "notesStroke": "",
 
-    "headerFont": "emb_shojumaru",
-    "textFont": "emb_shojumaru",
-    "notesFont": "emb_langar",
+    "headerFont": "Shojumaru",
+    "textFont": "Shojumaru",
+    "notesFont": "Langar",
     "textScale1": 1,
     "textScale2": 0.7,
     "textScale3": 0.9
@@ -178,9 +178,9 @@ const uglyStyle = `{
     "textStroke": "0.2",
     "notesStroke": "1",
 
-    "headerFont": "emb_unifraktur_cook",
-    "textFont": "emb_unifraktur_cook",
-    "notesFont": "emb_ramaraja",
+    "headerFont": "UnifrakturCook",
+    "textFont": "UnifrakturCook",
+    "notesFont": "Ramaraja",
 
     "textScale1": 1.2,
     "textScale2": 1,

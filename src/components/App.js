@@ -5,17 +5,17 @@ import Parses from "../utils/Parser";
 import '../styles/App.scss';
 
 const EmbededFontsList = [
-  "emb_frijole",
-  "emb_shojumaru",
-  "emb_ruslan_display",
-  "emb_lemon",
-  "emb_staatliches",
-  "emb_langar",
-  "emb_unifraktur_cook",
-  "emb_ramaraja",
-  "emb_caveat",
-  "emb_indie_flower",
-  "emb_shadows_into"
+  "Frijole",
+  "Shojumaru",
+  "Ruslan Display",
+  "Lemon",
+  "Staatliches",
+  "Langar",
+  "UnifrakturCook",
+  "Ramaraja",
+  "Caveat",
+  "Indie Flower",
+  "Shadows Into Light"
 ];
 
 function App() {
